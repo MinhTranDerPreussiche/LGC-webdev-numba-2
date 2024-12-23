@@ -1,0 +1,120 @@
+html{
+    background-color: #FFEADB;
+    color: #678A74;
+    font-family: "Afacad Flux", sans-serif;
+    max-height: 1500px;
+    overflow-y: scroll;
+}
+body{
+    overflow-x:hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #678A74;
+}
+#logo{
+    width:100px;
+    height:100px;
+}
+#logoText{
+    position: absolute;
+    font-size: xx-large;
+    color: white;
+    right: calc(100vw - 90px);
+    top: 24px;
+}
+#heroSplashText{
+    background-image: url(./assets/images/LGCExhibition1.jpg);
+    width: 1600px;
+    background-size: cover;
+    justify-self: center;
+    border: #FF8787 solid;
+    border-width: 15px;
+    border-radius: 10px;
+    font-size: 6em;
+    margin-top: 10px;
+    padding-top: 50px;
+    color: #084B84;
+    font-family: 'Tanker';
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: calc(100vh - 260px);
+}
+#heroSplashBox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#leDecorSet1{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -120px;
+}
+#prettyFlower1{
+    width: 350px;
+    height: 350px;
+    transform: rotate(30deg);   
+}
+#badPlant1{
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    overflow: hidden;
+    position:absolute;
+    left: calc(100vw - 410px);
+
+}
+#shitGardenBed{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: calc(50vw - 330px);
+    bottom: -20px;
+}
+#introduction{
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 250px;
+    
+
+}
+#up1{
+    position: absolute;
+    bottom: -80px;
+    left: calc(50vw - 150px);
+    color: white;
+    font-size: 4rem;
+    
+}
+h1[value="up1"]{
+    position: absolute;
+    color: white;
+}
+p[value="up1"]{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
+@media (max-width: 1000px){
+
+}
